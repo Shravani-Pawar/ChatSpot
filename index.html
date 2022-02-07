@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChatSpot</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="chatspot.css" />
+    <script src="chatspot.js"></script>
+  </head>
+
+  <body>
+    <h1 id="heading">ChatSpot</h1>
+    <br /><br />
+    <div id="para">
+      Welcome to <b>ChatSpot</b>.Here you can chat publicly.To get
+      started,please log in
+    </div>
+
+    <div class="login-page">
+      <div class="form">
+        <img
+          id="img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfLITwGbACcxUeYIPEq6V_CP4sPhthOKSMIQ&usqp=CAU"
+        />
+        <h1>Login</h1>
+        <form class="login-form">
+          <input type="text" placeholder="username" id="input" required="" />
+          <button id="loginbtn" onclick="login()" type="button">login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
